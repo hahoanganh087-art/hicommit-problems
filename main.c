@@ -2,8 +2,6 @@
 
 int main() {
  int a, b, c;
-
-    printf("Nhap ba so a, b, c: ");
     scanf("%d%d%d", &a, &b, &c);
 
     int max = a;
@@ -17,8 +15,7 @@ int main() {
     {
         max = c;
     }
-
-    printf("\nSo lon nhat la: %d", max);
+    printf(" %d", max);
 
     return 0;
 }
