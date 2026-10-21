@@ -1,19 +1,16 @@
+
 #include <stdio.h>
-  int main ()
-{
+
+int main() {
   int a;
-  printf("nhap a:");
-  scanf("%d",&a);
+  scanf("%d", &a);
   if(a%2!=0)
   {
     printf("LE");
-    
-    
   }
-    else {
-      printf("CHAN");
-      
-    }
-
-    return 0;
+  else
+  {
+    printf("CHAN");
+  }
+  return 0;
 }
