@@ -1,10 +1,19 @@
 #include <stdio.h>
-int main ()
+  int main ()
 {
-	int a;
-	printf ("nhap gia tri a la :");
-	scanf ("%d",&a);
-	
-	printf ("%d la %s",a,(a%2==0?"CHAN":"LE"));
-	
+  int a;
+  printf("nhap a:");
+  scanf("%d",&a);
+  if(a%2!=0)
+  {
+    printf("LE");
+    
+    
+  }
+    else {
+      printf("CHAN");
+      
+    }
+
+    return 0;
 }
