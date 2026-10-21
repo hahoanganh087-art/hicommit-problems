@@ -7,7 +7,7 @@ int main() {
     }
 
     if (khoang_cach <= 0 || gia_tri_don_hang < 0) {
-        printf("Dữ liệu không hợp lệ\n");
+        printf("INVALID\n");
     } else if (gia_tri_don_hang >= 500000 && khoang_cach <= 15) {
         printf("0\n");
     } else {
