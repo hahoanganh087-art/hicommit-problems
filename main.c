@@ -2,10 +2,7 @@
 
 int main() {
     float khoang_cach, gia_tri_don_hang;
-    if (scanf("%f", &khoang_cach) != 1 || scanf("%f", &gia_tri_don_hang) != 1) {
-        return 0;
-    }
-
+    if (scanf("%f", &khoang_cach) || scanf("%f", &gia_tri_don_hang) 
     if (khoang_cach <= 0 || gia_tri_don_hang < 0) {
         printf("INVALID\n");
     } else if (gia_tri_don_hang >= 500000 && khoang_cach <= 15) {
