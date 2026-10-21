@@ -18,7 +18,7 @@ int main() {
         max = c;
     }
 
-    printf("So lon nhat la: %d", max);
+    printf("\nSo lon nhat la: %d", max);
 
-    return 0;
+    return 0
 }
