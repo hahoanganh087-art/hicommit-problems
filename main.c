@@ -5,9 +5,15 @@ int main()
     int a;
     printf("nhap gia tri a: "); 
     scanf("%d", &a);
+  if (a%2!=0)
+  {
+printf("LE");
+
     
-    
-    printf("%d la %s\n", a, (a % 2 == 0) ? "CHAN" : "LE");
-    
+  }
+    else {
+
+      printf("CHAN");
+    }
     return 0;
 }
