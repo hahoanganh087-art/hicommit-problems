@@ -3,9 +3,7 @@
 int main() {
         float dtb;
         int drl,hl,rl;
-  printf("nhap diem trung binh:",dtb);
   scanf("%f",&dtb);
-  printf("nhap diem ren luyen:",drl);
   scanf("%d",&drl);
       if (dtb >=9)
         hl = 3;
