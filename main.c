@@ -1,31 +1,16 @@
 #include <stdio.h>
 
 int main() {
-  float dtb, drl, hl, rl;
+  float dtb;
+  int drl;
   scanf("%f",&dtb);
-  scanf("%f",&drl);
-  if (dtb >=9)
-    hl = 3;
-  else if(dtb>= 8)
-    hl = 2;
-  else if(dtb >= 7)
-    hl = 1;
-  else 
-    hl = 0;
-  if (drl >=90)
-     rl = 3;
-  else if (drl >=80)
-    rl = 2;
-  else if (drl >=70)
-    rl =1;
-  else
-    rl =0;
-  if(hl==3 && rl==3)
+  scanf("%d",&drl);
+  if (dtb >=9 && drl >=90)
     printf ("HOC_BONG_XUAT_SAC");
-  else if((hl==2 && rl==3)||(hl ==3 && rl ==2))
+  else if((dtb >=8 && drl >=80)||( dtb >=9 && drl >=80))
         
          printf("HOC_BONG_GIOI");
-  else if ((hl ==1 && rl ==1)||(hl ==2 && rl ==1)||(hl ==3 && rl ==1))
+  else if ((dtb >=7 && drl >=70)||(dtb >=8 && drl >=70)||(dtb >=9 && drl >=70))
     printf("HOC-BONG-KHA");
   else 
     printf("KHONG_DAT");
