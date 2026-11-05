@@ -2,7 +2,7 @@
 
 int main() {
 int n;
-  printf("nhap mot so nguyen",n);
+  printf("nhap mot so nguyen",n\n);
   scanf("%d",&n);
   switch(n){
     case 1:
