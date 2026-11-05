@@ -15,8 +15,9 @@ int n;
       break;
     case 4:
       printf("XEP_LOAI_TRUNG_BINH");
+      break;
     default:
-      printf("\nKHONG_HOP_LE");
+      printf("KHONG_HOP_LE");
       
   }
 
